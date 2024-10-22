@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.appointment-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 30%;
+    font-size: 16px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    /* 在垂直方向上調整其高度，而不允許在水平方向上調整 */
+}
+
+.submit-btn {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* 用於將鼠標指標樣式設置為手形圖標 */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
